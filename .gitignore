@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+
+# Frontend
+client/node_modules/
+client/dist/
+client/coverage/
+client/*.tsbuildinfo
+client/node_modules/
+client/dist/
+client/.vite
+
+# Environment files
+.env
+client/.env
+
+# OS / editor
+.DS_Store
+client/.DS_Store
+.idea/
+.vscode/
